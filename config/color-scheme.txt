@@ -1,0 +1,13 @@
+# Duke Desktop Launcher - Color Scheme
+# Theme: Default
+# ANSI Color Codes: 30-37 (normal), 90-97 (bright)
+# Colors: Black=0, Red=1, Green=2, Yellow=3, Blue=4, Magenta=5, Cyan=6, White=7
+
+HEADER_COLOR=96m
+TEXT_COLOR=97m
+SUCCESS_COLOR=92m
+WARNING_COLOR=93m
+ERROR_COLOR=91m
+INFO_COLOR=94m
+BRACKET_COLOR=90m
+SEPARATOR_COLOR=96m

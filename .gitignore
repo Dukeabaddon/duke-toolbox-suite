@@ -1,0 +1,49 @@
+# Duke Desktop Launcher - Git Ignore File
+
+# Distribution builds
+dist/
+*.zip
+
+# Logs directory
+logs/
+*.log
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# User-specific configuration files (preserve templates)
+config/detected-browsers.txt
+config/system-info.txt
+config/brave-links.txt
+config/chrome-links.txt
+config/edge-links.txt
+config/firefox-links.txt
+config/opera-links.txt
+config/weather-location.txt
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Compiled/generated files
+*.exe
+*.dll
+*.bat.bak
+
+# Test files
+test/
+tests/
+
+# Personal notes
+NOTES.md
+TODO-personal.txt

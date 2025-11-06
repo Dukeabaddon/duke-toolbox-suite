@@ -1,0 +1,34 @@
+# Browser Quick Links Template
+# Format: Name|URL
+# One link per line, no limit on number of links
+# Lines starting with # are comments and will be ignored
+# 
+# EXAMPLES:
+# GitHub|https://github.com
+# YouTube|https://youtube.com
+# Gmail|https://mail.google.com
+# Reddit|https://reddit.com
+# Twitter|https://twitter.com
+# Stack Overflow|https://stackoverflow.com
+#
+# TO USE THIS TEMPLATE:
+# 1. Copy this file to brave-links.txt (or chrome-links.txt, etc.)
+# 2. Edit the file and add your own links
+# 3. Remove the example links below or replace them
+# 4. Save the file
+#
+# SUPPORTED BROWSERS:
+# - brave-links.txt (Brave Browser)
+# - chrome-links.txt (Google Chrome)
+# - edge-links.txt (Microsoft Edge)
+# - firefox-links.txt (Mozilla Firefox)
+# - opera-links.txt (Opera/Opera GX)
+
+GitHub|https://github.com
+YouTube|https://youtube.com
+Gmail|https://mail.google.com
+Reddit|https://reddit.com
+Twitter|https://twitter.com
+Stack Overflow|https://stackoverflow.com
+MDN Web Docs|https://developer.mozilla.org
+ChatGPT|https://chat.openai.com

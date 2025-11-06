@@ -1,0 +1,7 @@
+# Quick Links - Duke Desktop Launcher
+# Format: Name|URL
+# You can add, edit, or remove any links including the defaults below
+
+YouTube|https://www.youtube.com
+Gmail|https://mail.google.com
+ChatGPT|https://chat.openai.com
