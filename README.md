@@ -13,6 +13,10 @@ cd duke-toolbox-suite
 .
 ``` 
 
+<p align="center">
+	<img src="assets/duke-hero.gif" alt="Duke demo" width="800" />
+</p>
+
 Short description
 -----------------
 
