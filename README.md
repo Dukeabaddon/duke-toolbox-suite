@@ -5,62 +5,61 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Status: Production Ready](https://img.shields.io/badge/status-production%20ready-success)]()
 
-Clone and run (quick):
-
-```bash
-git clone https://github.com/Dukeabaddon/duke-toolbox-suite.git
-cd duke-toolbox-suite
-.
-``` 
+A fast, modular Windows launcher and utilities hub written in pure batch. Duke gives you a polished terminal UI for launching apps, checking system health, opening quick links, and running lightweight tools from one place.
 
 <p align="center">
 	<img src="assets/duke-hero.gif" alt="Duke demo" width="800" />
 </p>
 
-Short description
------------------
+## Quick Start
 
-Duke is a fast, modular Windows desktop launcher and utilities hub written in pure batch scripts. It provides a clean terminal UI with built-in tools: system report, desktop app launcher, weather, quick links, quotes, small games (Matrix/Tetris), and system diagnostics.
+```bash
+git clone https://github.com/Dukeabaddon/duke-toolbox-suite.git
+cd duke-toolbox-suite
+duke.cmd
+```
 
-Key features
-------------
-- Desktop integration: auto-scan `.exe` and `.lnk` items, browser quick-links.
-- Utilities: weather (via curl/wttr.in), random quotes, matrix animation, small games.
-- System tools: health checks (SFC/DISM), network diagnostics, power & disk reports.
-- Customizable: ANSI color schemes, ASCII banner, modular `modules/` layout.
-- Zero external deps (except `curl` for network features).
+## What It Does
 
-Quick start
------------
-1. Download or clone the repo.
-2. Double-click `duke.cmd` or run it from a terminal.
+- Launches desktop apps from a clean menu.
+- Scans browser links and local shortcuts.
+- Shows weather, quotes, and small visual extras.
+- Runs system checks, network diagnostics, and power or disk reports.
+- Keeps everything modular in `modules/` and easy to customize in `config/`.
 
-Configuration
--------------
-- `config/system-info.txt` — basic system metadata.
-- `config/*-links.txt` — browser quick links (pipe-delimited: Title|URL).
-- `config/weather-location.txt` — location name for weather lookups.
+## Requirements
 
-Contributing
-------------
-Contributions welcome. Good first steps:
+- Windows 10 or later.
+- PowerShell or Command Prompt.
+- `curl` for weather-related features.
 
-- Open issues for bugs or feature requests.
-- Add small, focused PRs in `modules/` with tests if possible.
+## Customize
 
-What to show/screenshots
-------------------------
-- Add a hero GIF (3–6s) showing the launcher start and a few features (menu, weather, a quick link).
-- Include a short annotated screenshot for the two-column menu.
+- `config/system-info.txt` for machine details shown in the UI.
+- `config/*-links.txt` for quick-launch browser links in `Title|URL` format.
+- `config/weather-location.txt` for the weather lookup location.
 
-Why this README
-----------------
-This one-page README focuses on clarity and first-run experience: what Duke is, how to try it immediately, and where to look for customization. For deeper docs keep `documentation/` as-is and link from here.
+Example quick-link entry:
 
-License
--------
-MIT — see `LICENSE`.
+```text
+GitHub|https://github.com
+Docs|https://learn.microsoft.com
+```
 
-Contact
--------
-Open issues or mention @Aaron on GitHub.
+## Troubleshooting
+
+- If colors look wrong, use Windows Terminal or enable ANSI support.
+- If weather fails, check that `curl` works and the location file is set.
+- If a shortcut does not appear, verify the file path and extension in `config/`.
+
+## Contributing
+
+Small, focused PRs are welcome. Start with bug fixes, launcher entries, or config improvements.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+## Contact
+
+Open an issue or mention @Aaron on GitHub.
